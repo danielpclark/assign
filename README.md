@@ -24,11 +24,9 @@ Or install it yourself as:
 ## Usage
 
 ```ruby
-h = {}
-
-a, b, h.assign.update, c = [:a, 2, {hash: :example}, nil]
-
-h
+hash = {}
+a, b, hash.assign.update, c = [:a, 2, {hash: :example}, nil]
+hash
 # => {hash: :example}
 ```
 
