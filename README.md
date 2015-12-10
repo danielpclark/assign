@@ -3,7 +3,7 @@
 This will allow you to use any method inline with multiple assignment.
 This is a feature request for the Ruby language [#11690](https://bugs.ruby-lang.org/issues/11690)
 
-
+Credit to [Nobuyoshi Nakada](https://bugs.ruby-lang.org/issues/11690#note-4) for the initial implementation design.
 
 ## Installation
 
