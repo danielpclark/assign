@@ -24,10 +24,10 @@ Or install it yourself as:
 ## Usage
 
 ```ruby
-hash = {}
-a, b, hash.assign.update, c = [:a, 2, {hash: :example}, nil]
+hash = {x: 123, y: 123}
+a, b, hash.assign.update, c = [:a, 2, {y: 456}, nil]
 hash
-# => {hash: :example}
+# => {x: 123, y: 456}
 ```
 
 ## Development
